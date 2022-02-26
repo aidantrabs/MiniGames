@@ -35,7 +35,7 @@ public class MiniGames extends JFrame implements ActionListener
 	private JLabel orLabel = new JLabel("OR");
 
 	//Declare and initialize all ImageIcon objects for buttons, exit screen, flames, columns and title label
-	private ImageIcon imgTitle = new ImageIcon("/assets/mainmenu/title.png");
+	private ImageIcon imgTitle = new ImageIcon("\\assets\\mainmenu\\title.png");
 	private ImageIcon imgTaxi = new ImageIcon("assets\\mainmenu\\crazytaxi.png");
 	private ImageIcon imgTic = new ImageIcon("assets\\mainmenu\\tictactoe.png");
 	private ImageIcon imgExit = new ImageIcon("assets\\mainmenu\\exit.png");
