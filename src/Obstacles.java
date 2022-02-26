@@ -23,7 +23,7 @@ public class Obstacles
 		xPos = 1000;
 		yPos = rnd.nextInt(490)+1;
 		randomNum = rnd.nextInt(4)+1;
-		img = new ImageIcon("taxi\\" + randomNum + ".png");
+		img = new ImageIcon("assets\\taxi\\" + randomNum + ".png");
 		imgCar = img.getImage();
 	}
 

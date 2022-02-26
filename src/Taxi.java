@@ -13,7 +13,7 @@ public class Taxi
 	{
 		xPos = 50;
 		yPos = 230;
-		img = new ImageIcon("taxi\\taxi2.png");
+		img = new ImageIcon("assets\\taxi\\taxi2.png");
 		imgCar = img.getImage();
 	}
 

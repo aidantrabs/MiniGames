@@ -1,3 +1,4 @@
+
 import java.awt.*;
 import java.awt.event.*;
 import java.text.*;
@@ -34,17 +35,17 @@ public class MiniGames extends JFrame implements ActionListener
 	private JLabel orLabel = new JLabel("OR");
 
 	//Declare and initialize all ImageIcon objects for buttons, exit screen, flames, columns and title label
-	private ImageIcon imgTitle = new ImageIcon("mainmenu\\title.png");
-	private ImageIcon imgTaxi = new ImageIcon("mainmenu\\crazytaxi.png");
-	private ImageIcon imgTic = new ImageIcon("mainmenu\\tictactoe.png");
-	private ImageIcon imgExit = new ImageIcon("mainmenu\\exit.png");
-	private ImageIcon imgInstructions = new ImageIcon("mainmenu\\instructions.png");
-	private ImageIcon imgSmiley = new ImageIcon("mainmenu\\smiley.png");
-	private ImageIcon imgSadSmiley = new ImageIcon("mainmenu\\sadSmiley.png");
-	private ImageIcon imgFlame = new ImageIcon("mainmenu\\flame.gif");
-	private ImageIcon imgColumn = new ImageIcon("mainmenu\\column.png");
+	private ImageIcon imgTitle = new ImageIcon("/assets/mainmenu/title.png");
+	private ImageIcon imgTaxi = new ImageIcon("assets\\mainmenu\\crazytaxi.png");
+	private ImageIcon imgTic = new ImageIcon("assets\\mainmenu\\tictactoe.png");
+	private ImageIcon imgExit = new ImageIcon("assets\\mainmenu\\exit.png");
+	private ImageIcon imgInstructions = new ImageIcon("assets\\mainmenu\\instructions.png");
+	private ImageIcon imgSmiley = new ImageIcon("assets\\mainmenu\\smiley.png");
+	private ImageIcon imgSadSmiley = new ImageIcon("assets\\mainmenu\\sadSmiley.png");
+	private ImageIcon imgFlame = new ImageIcon("assets\\mainmenu\\flame.gif");
+	private ImageIcon imgColumn = new ImageIcon("assets\\mainmenu\\column.png");
 
-	//Declare and initialize 2 JButton objects for exit and instructions
+	//Declare and initialize 2 JButton objects for exit and instructionscd
 	private JButton exitBtn = new JButton();
 	private JButton instructionsBtn = new JButton();
 

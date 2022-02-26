@@ -30,15 +30,15 @@ public class CrazyTaxi extends JPanel implements ActionListener, KeyListener
 	private Random rnd = new Random();
 
 	//Declare and initialize ImageIcon and Image to be used for instructions on screen (up arrow image)
-	private ImageIcon upArrow = new ImageIcon("taxi\\up_arrow.png");
+	private ImageIcon upArrow = new ImageIcon("assets\\taxi\\up_arrow.png");
 	private Image imgUp = upArrow.getImage();
 
 	//Declare and initialize ImageIcon and Image to be used for instructions on screen (down arrow image)
-	private ImageIcon downArrow = new ImageIcon("taxi\\down_arrow.png");
+	private ImageIcon downArrow = new ImageIcon("assets\\taxi\\down_arrow.png");
 	private Image imgDown = downArrow.getImage();
 
 	//Declare and initialize ImageIcon and Image to be used for game over 
-	private ImageIcon gameOver = new ImageIcon("taxi\\lose.png");
+	private ImageIcon gameOver = new ImageIcon("assets\\taxi\\lose.png");
 	private Image imgGameOver = gameOver.getImage();
 
 	//Declare and initialize Decimal Format object

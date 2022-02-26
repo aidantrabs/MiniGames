@@ -33,15 +33,15 @@ public class TicTacToe extends JFrame implements ActionListener
 	private JLabel timerLabel = new JLabel();
 
 	//Declare and initialize 2 ImageIcon objects for both players
-	private ImageIcon imgX = new ImageIcon("tictactoe\\x.png");
-	private ImageIcon imgO = new ImageIcon("tictactoe\\o.png");
+	private ImageIcon imgX = new ImageIcon("assets\\tictactoe\\x.png");
+	private ImageIcon imgO = new ImageIcon("assets\\tictactoe\\o.png");
 
 	//Declare and initialize 2 ImageIcon objects for win and tie JOptionPanes
-	private ImageIcon imgWin = new ImageIcon("tictactoe\\win.png");
-	private ImageIcon imgTie = new ImageIcon("tictactoe\\tie.png");
+	private ImageIcon imgWin = new ImageIcon("assets\\tictactoe\\win.png");
+	private ImageIcon imgTie = new ImageIcon("assets\\tictactoe\\tie.png");
 	
 	//Declare and initialize play again ImageIcon object 
-	private ImageIcon imgPlayAgain = new ImageIcon("tictactoe\\play again.png");
+	private ImageIcon imgPlayAgain = new ImageIcon("assets\\tictactoe\\play again.png");
 
 	//Declare and initialize Dimension object 
 	private Dimension d = new Dimension(130, 130);
